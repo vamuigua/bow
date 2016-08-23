@@ -13,13 +13,50 @@
     font-size: 25px;
     display: inline;
     margin:0px 20px;
+    -webkit-transition-property: border-bottom;
+    -moz-transition-property: border-bottom;
+    -o-transition-property: border-bottom;
+    -webkit-transition-duration: .2s, .2s;
+    -moz-transition-duration: .2s, .2s;
+    -o-transition-duration: .2s, .2s;
+    -webkit-transition-timing-function:linear;
+    -moz-transition-timing-function:linear;
+    -o-transition-timing-function:linear;
 }
 
 .navbar ul{
     padding-top:10px;
 }
+
+.navbar li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(47, 139, 251);
+    border-top: 2px solid rgb(47, 139, 251); 
+}
+
+.navbar li a:hover{
+    color: white;
+}
+
+.navbar li a{
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -webkit-transition-duration: .2s, .2s;
+    -moz-transition-duration: .2s, .2s;
+    -o-transition-duration: .2s, .2s;
+    -webkit-transition-timing-function:linear;
+    -moz-transition-timing-function:linear;
+    -o-transition-timing-function:linear;
+}
+
+.navbar li a .active{
+    color: white;
+    border-bottom: 2px solid rgb(47, 139, 251);
+    border-top: 2px solid rgb(47, 139, 251); 
+}
 /**LOGO**/
-.logo h2{
+#logo h2{
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     color: rgb(246, 60, 60);
