@@ -1,0 +1,14 @@
+/**NAVMENU BAR**/
+.wrapper-nav{
+   text-align:center;
+}
+.navbar li {
+    display: inline;
+}
+/**LOGO**/
+.logo h2{
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    color: rgb(246, 60, 60);
+    font-size: 45px;
+}
