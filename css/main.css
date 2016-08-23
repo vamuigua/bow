@@ -2,8 +2,15 @@
 .wrapper-nav{
    text-align:center;
 }
+.navbar{
+     background-color: rgb(0,0,0);
+}
+
 .navbar li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     display: inline;
+    margin: 10px 20px;
 }
 /**LOGO**/
 .logo h2{
