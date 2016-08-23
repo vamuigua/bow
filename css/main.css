@@ -5,6 +5,7 @@
 .navbar{
     background-color: rgb(0,0,0);
     height: 70px;
+    box-shadow: 0 5px 8px 0 rgba(47, 139, 251, 0.4);
 }
 
 .navbar li{
